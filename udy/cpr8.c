@@ -2,9 +2,10 @@
 #include<stdio.h>
 void main()
 {
-    float min,y,d;
+    double min,d,y;
     printf("Enter the numberof minutes ");
-    scanf("%f",min);
+    scanf("%lf",&min);
     d=min/(24*60);
-    
-}
+    y=d/365;
+    printf("\n%lf minutes=%lf Days \n %lf minutes=%lf years",min,d,min,y);
+} 

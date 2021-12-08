@@ -1,10 +1,11 @@
 {
     "configurations": [
+        
     {
         "name": "(gdb) Launch",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${workspaceFolder}/cpr.out",
+        "program": "${workspaceFolder}/cpr9.out",
         "args": [],
         "stopAtEntry": true,
         "cwd": "${workspaceFolder}",
