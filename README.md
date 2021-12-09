@@ -1,2 +1,2 @@
 # cprog
-This Repositori is for Learning and testing cprograming
+This Repositories is for Learning and testing cprograming
