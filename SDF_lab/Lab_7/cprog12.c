@@ -1,18 +1,11 @@
-/*If a four-digit number is input through the keyboard. Write a C program to obtain the sum of the first 
-and last digit of this number.*/
+/*The distance between two cities (in km.) is input through the keyboard. Write a
+program to convert and print this distance in meters, feet, inches and centimeters*/
 #include<stdio.h>
 void main()
 {
-    int n,rem,sum=0;
-    printf("Enter the Number=");
-    scanf("%d",&n);
-    sum=sum+n%10;
-    while (n>0)
-    {
-        rem=n%10;
-        n=n/10;
-    }
-    sum=sum+rem;
-    printf("Sum=%d",sum);
-  
+    float a,b;
+    printf("Enter the value=");
+    scanf("%f",a);
+    printf(" Distance in meters= %f \n Distance in feet=%f \n Distance in inches = %f \n Distance in centimeters=%f",a*1000,a*3280.84,a*39370.08,a*1000000);
+
 }
