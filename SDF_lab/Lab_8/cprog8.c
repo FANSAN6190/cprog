@@ -6,10 +6,10 @@ void main()
     int A;
     printf("Enter the Character : ");
     scanf("%c",&A);
-    if(A>64 && A<91){
+    if(A>=65 && A<=90){
         printf("Character is Capital");
     }
-    else if(A>90 && A<123){
+    else if(A>=97 && A<=122){
         printf("Character is Samll");
     }
 }
