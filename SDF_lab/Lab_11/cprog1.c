@@ -10,18 +10,16 @@
 #include<stdio.h>
 void main()
 {
-    int i,a;
-    for(i=1;i<=7;i++){
-        if(i>4){
-                for(a=1;a<=i;a++);
-                printf("%d",i);
-        }
-        else{
-            for(a=i;a<=i;a--);
-            printf("%d",a);
+    int i,a,t;
+    for(i=1;i<=4;i++){
+        for(a=4;a>=1;a--){
+                printf(" ");
+            for(t=i;t>=i;t++){
+                    printf("%d",t);
+            }
+
         }
         printf("\n");
+
     }
-
 }
-
