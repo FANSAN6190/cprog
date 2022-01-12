@@ -4,13 +4,13 @@
 int x,y;
 void main()
 {
-    io();
+    printf("Enter the values=");
+        scanf("%d %d",&x,&y);
+        swap();
+        printf("New values of x=%d \ny=%d",x,y);
+}
+int swap(){
     x=x+y;
     y=x-y;
     x=x-y;
-    printf("New values of x=%d \ny=%d",x,y);
-}
-int io(){
-        printf("Enter the values=");
-        scanf("%d %d",&x,&y);
 }
