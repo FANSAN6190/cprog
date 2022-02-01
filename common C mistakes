@@ -1,0 +1,14 @@
+common C syntax errors-
+ 1. missing Semicolons(;) or Brackets()
+ 2. equality operator( = )and( == )
+ 3. declare prototype for function before main.
+ 4. missing header file.
+ 5. character constant and character string
+    t='a'; t is a character variable.  
+    t="a"; (wrong declaration it should be t[]="a") t is a pointer variable for char.
+ 6. exceding the limits of array. (Memory Exception)
+ 7. forgeting to reserve an extra locaton for an array.
+ 8. forgetting an ampersand before nonpointer variable.(sacanf)
+ 9. using variable before declaration.
+10. for break in switch case.
+11. no Semicolon is needed for declaration of constants using #define.

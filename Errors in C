@@ -1,0 +1,12 @@
+A C Compiler can display 2 types of problems, errors and warnings.
+Errors- it prevents the creation of a final program.
+warnings-they occur due to special situation but may results in an error in future.
+
+Erros-  
+1. Variable undeclared (first use in the function).     (variable not declared).
+2. error: conflicting types for `...'                   (when definition and declaration of function are not correct)
+3. segmentation fault                                   (runtime errors - occur due to crash, logical error) 
+warnings-
+1. warning: implicit declaration of function ...'       (Missing Function Prototype).
+2. warning: control reaches end of non-void function    (funtion should return a result but no return statement)
+3. warning: unused variable `...'                       (missing definition of funtion)

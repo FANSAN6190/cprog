@@ -18,9 +18,11 @@ void main()
     char *q=NULL;
     char v[]="efg";
     q=strstr(str2,v);
+    int x,y;
+    x=y*3;
     printf("%s\n",q);
 
     //strtok()
-    char *s=null;
-    
+    char t[]="a";
+
 }
